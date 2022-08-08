@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A5620F3287DC5EB00154CEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5620F2287DC5EB00154CEC /* AppDelegate.swift */; };
+		4A5620F5287DC5EB00154CEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5620F4287DC5EB00154CEC /* SceneDelegate.swift */; };
+		4A5620FF287DC5EC00154CEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A5620FD287DC5EC00154CEC /* LaunchScreen.storyboard */; };
+		4A56210A287DC5EC00154CEC /* Lavender_ShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A562109287DC5EC00154CEC /* Lavender_ShopTests.swift */; };
+		4A562114287DC5EC00154CEC /* Lavender_ShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A562113287DC5EC00154CEC /* Lavender_ShopUITests.swift */; };
+		4A562116287DC5EC00154CEC /* Lavender_ShopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A562115287DC5EC00154CEC /* Lavender_ShopUITestsLaunchTests.swift */; };
+		4A5621262888411C00154CEC /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5621252888411C00154CEC /* ProductViewController.swift */; };
+		4A5621292898224500154CEC /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5621282898224500154CEC /* Product.swift */; };
+		4A56212C28983F9200154CEC /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A56212B28983F9200154CEC /* ProductViewModel.swift */; };
+		4A56212E28A0313F00154CEC /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A56212D28A0313F00154CEC /* ListView.swift */; };
+		4A56213528A0412400154CEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A56213428A0412400154CEC /* Main.storyboard */; };
+		4A56213828A046D700154CEC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A56213728A046D700154CEC /* Constants.swift */; };
+		4A56214028A14CE800154CEC /* ButtonEventListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A56213F28A14CE800154CEC /* ButtonEventListener.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A562106287DC5EC00154CEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A5620E7287DC5EB00154CEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A5620EE287DC5EB00154CEC;
+			remoteInfo = "Lavender Shop";
+		};
+		4A562110287DC5EC00154CEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A5620E7287DC5EB00154CEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A5620EE287DC5EB00154CEC;
+			remoteInfo = "Lavender Shop";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A5620EF287DC5EB00154CEC /* Lavender Shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lavender Shop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A5620F2287DC5EB00154CEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4A5620F4287DC5EB00154CEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4A5620FE287DC5EC00154CEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A562100287DC5EC00154CEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A562105287DC5EC00154CEC /* Lavender ShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lavender ShopTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A562109287DC5EC00154CEC /* Lavender_ShopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lavender_ShopTests.swift; sourceTree = "<group>"; };
+		4A56210F287DC5EC00154CEC /* Lavender ShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lavender ShopUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A562113287DC5EC00154CEC /* Lavender_ShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lavender_ShopUITests.swift; sourceTree = "<group>"; };
+		4A562115287DC5EC00154CEC /* Lavender_ShopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lavender_ShopUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4A5621252888411C00154CEC /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		4A5621282898224500154CEC /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		4A56212B28983F9200154CEC /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
+		4A56212D28A0313F00154CEC /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		4A56213428A0412400154CEC /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4A56213728A046D700154CEC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4A56213F28A14CE800154CEC /* ButtonEventListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonEventListener.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A5620EC287DC5EB00154CEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A562102287DC5EC00154CEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A56210C287DC5EC00154CEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A5620E6287DC5EB00154CEC = {
+			isa = PBXGroup;
+			children = (
+				4A5620F1287DC5EB00154CEC /* Lavender Shop */,
+				4A562108287DC5EC00154CEC /* Lavender ShopTests */,
+				4A5620F0287DC5EB00154CEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A5620F0287DC5EB00154CEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A5620EF287DC5EB00154CEC /* Lavender Shop.app */,
+				4A562105287DC5EC00154CEC /* Lavender ShopTests.xctest */,
+				4A56210F287DC5EC00154CEC /* Lavender ShopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A5620F1287DC5EB00154CEC /* Lavender Shop */ = {
+			isa = PBXGroup;
+			children = (
+				4A56213E28A14CAC00154CEC /* Data */,
+				4A56213628A046C600154CEC /* Constants */,
+				4A56212A289823CC00154CEC /* ViewModel */,
+				4A5621272898222C00154CEC /* Model */,
+				4A562122287F2A1900154CEC /* View */,
+				4A5620F2287DC5EB00154CEC /* AppDelegate.swift */,
+				4A5620F4287DC5EB00154CEC /* SceneDelegate.swift */,
+				4A5620FD287DC5EC00154CEC /* LaunchScreen.storyboard */,
+				4A56213428A0412400154CEC /* Main.storyboard */,
+				4A562100287DC5EC00154CEC /* Info.plist */,
+				4A562112287DC5EC00154CEC /* Lavender ShopUITests */,
+			);
+			path = "Lavender Shop";
+			sourceTree = "<group>";
+		};
+		4A562108287DC5EC00154CEC /* Lavender ShopTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A562109287DC5EC00154CEC /* Lavender_ShopTests.swift */,
+			);
+			path = "Lavender ShopTests";
+			sourceTree = "<group>";
+		};
+		4A562112287DC5EC00154CEC /* Lavender ShopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4A562113287DC5EC00154CEC /* Lavender_ShopUITests.swift */,
+				4A562115287DC5EC00154CEC /* Lavender_ShopUITestsLaunchTests.swift */,
+			);
+			path = "Lavender ShopUITests";
+			sourceTree = "<group>";
+		};
+		4A562122287F2A1900154CEC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4A56213D28A0B17900154CEC /* Products */,
+				4A56212F28A03DA000154CEC /* ListView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4A5621272898222C00154CEC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4A5621282898224500154CEC /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4A56212A289823CC00154CEC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4A56212B28983F9200154CEC /* ProductViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4A56212F28A03DA000154CEC /* ListView */ = {
+			isa = PBXGroup;
+			children = (
+				4A56212D28A0313F00154CEC /* ListView.swift */,
+			);
+			path = ListView;
+			sourceTree = "<group>";
+		};
+		4A56213628A046C600154CEC /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				4A56213728A046D700154CEC /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		4A56213D28A0B17900154CEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A5621252888411C00154CEC /* ProductViewController.swift */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		4A56213E28A14CAC00154CEC /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				4A56213F28A14CE800154CEC /* ButtonEventListener.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A5620EE287DC5EB00154CEC /* Lavender Shop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A562119287DC5EC00154CEC /* Build configuration list for PBXNativeTarget "Lavender Shop" */;
+			buildPhases = (
+				4A5620EB287DC5EB00154CEC /* Sources */,
+				4A5620EC287DC5EB00154CEC /* Frameworks */,
+				4A5620ED287DC5EB00154CEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lavender Shop";
+			productName = "Lavender Shop";
+			productReference = 4A5620EF287DC5EB00154CEC /* Lavender Shop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A562104287DC5EC00154CEC /* Lavender ShopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A56211C287DC5EC00154CEC /* Build configuration list for PBXNativeTarget "Lavender ShopTests" */;
+			buildPhases = (
+				4A562101287DC5EC00154CEC /* Sources */,
+				4A562102287DC5EC00154CEC /* Frameworks */,
+				4A562103287DC5EC00154CEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A562107287DC5EC00154CEC /* PBXTargetDependency */,
+			);
+			name = "Lavender ShopTests";
+			productName = "Lavender ShopTests";
+			productReference = 4A562105287DC5EC00154CEC /* Lavender ShopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4A56210E287DC5EC00154CEC /* Lavender ShopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A56211F287DC5EC00154CEC /* Build configuration list for PBXNativeTarget "Lavender ShopUITests" */;
+			buildPhases = (
+				4A56210B287DC5EC00154CEC /* Sources */,
+				4A56210C287DC5EC00154CEC /* Frameworks */,
+				4A56210D287DC5EC00154CEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A562111287DC5EC00154CEC /* PBXTargetDependency */,
+			);
+			name = "Lavender ShopUITests";
+			productName = "Lavender ShopUITests";
+			productReference = 4A56210F287DC5EC00154CEC /* Lavender ShopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A5620E7287DC5EB00154CEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					addButton,
+				);
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					4A5620EE287DC5EB00154CEC = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					4A562104287DC5EC00154CEC = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 4A5620EE287DC5EB00154CEC;
+					};
+					4A56210E287DC5EC00154CEC = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 4A5620EE287DC5EB00154CEC;
+					};
+				};
+			};
+			buildConfigurationList = 4A5620EA287DC5EB00154CEC /* Build configuration list for PBXProject "Lavender Shop" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A5620E6287DC5EB00154CEC;
+			productRefGroup = 4A5620F0287DC5EB00154CEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A5620EE287DC5EB00154CEC /* Lavender Shop */,
+				4A562104287DC5EC00154CEC /* Lavender ShopTests */,
+				4A56210E287DC5EC00154CEC /* Lavender ShopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A5620ED287DC5EB00154CEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A5620FF287DC5EC00154CEC /* LaunchScreen.storyboard in Resources */,
+				4A56213528A0412400154CEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A562103287DC5EC00154CEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A56210D287DC5EC00154CEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A5620EB287DC5EB00154CEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A56214028A14CE800154CEC /* ButtonEventListener.swift in Sources */,
+				4A56212C28983F9200154CEC /* ProductViewModel.swift in Sources */,
+				4A5620F3287DC5EB00154CEC /* AppDelegate.swift in Sources */,
+				4A56212E28A0313F00154CEC /* ListView.swift in Sources */,
+				4A5621292898224500154CEC /* Product.swift in Sources */,
+				4A56213828A046D700154CEC /* Constants.swift in Sources */,
+				4A5621262888411C00154CEC /* ProductViewController.swift in Sources */,
+				4A5620F5287DC5EB00154CEC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A562101287DC5EC00154CEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A56210A287DC5EC00154CEC /* Lavender_ShopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A56210B287DC5EC00154CEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A562114287DC5EC00154CEC /* Lavender_ShopUITests.swift in Sources */,
+				4A562116287DC5EC00154CEC /* Lavender_ShopUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A562107287DC5EC00154CEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A5620EE287DC5EB00154CEC /* Lavender Shop */;
+			targetProxy = 4A562106287DC5EC00154CEC /* PBXContainerItemProxy */;
+		};
+		4A562111287DC5EC00154CEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A5620EE287DC5EB00154CEC /* Lavender Shop */;
+			targetProxy = 4A562110287DC5EC00154CEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A5620FD287DC5EC00154CEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A5620FE287DC5EC00154CEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A562117287DC5EC00154CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4A562118287DC5EC00154CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A56211A287DC5EC00154CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lavender Shop/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lavendershop.Lavender-Shop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A56211B287DC5EC00154CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lavender Shop/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lavendershop.Lavender-Shop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4A56211D287DC5EC00154CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lavendershop.Lavender-ShopTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lavender Shop.app/Lavender Shop";
+			};
+			name = Debug;
+		};
+		4A56211E287DC5EC00154CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lavendershop.Lavender-ShopTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lavender Shop.app/Lavender Shop";
+			};
+			name = Release;
+		};
+		4A562120287DC5EC00154CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lavendershop.Lavender-ShopUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lavender Shop";
+			};
+			name = Debug;
+		};
+		4A562121287DC5EC00154CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lavendershop.Lavender-ShopUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lavender Shop";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A5620EA287DC5EB00154CEC /* Build configuration list for PBXProject "Lavender Shop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A562117287DC5EC00154CEC /* Debug */,
+				4A562118287DC5EC00154CEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A562119287DC5EC00154CEC /* Build configuration list for PBXNativeTarget "Lavender Shop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A56211A287DC5EC00154CEC /* Debug */,
+				4A56211B287DC5EC00154CEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A56211C287DC5EC00154CEC /* Build configuration list for PBXNativeTarget "Lavender ShopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A56211D287DC5EC00154CEC /* Debug */,
+				4A56211E287DC5EC00154CEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A56211F287DC5EC00154CEC /* Build configuration list for PBXNativeTarget "Lavender ShopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A562120287DC5EC00154CEC /* Debug */,
+				4A562121287DC5EC00154CEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A5620E7287DC5EB00154CEC /* Project object */;
+}
